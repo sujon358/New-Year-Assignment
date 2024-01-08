@@ -139,7 +139,7 @@ color: #FF0000;
     margin: 0%;
 }
 .portfolio-title{
-    margin-left: 120px;
+    margin-left:110px;
 }
 .cards img{
     height: 400px;
@@ -154,6 +154,9 @@ color: #FF0000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 85%;
+    margin-left: 70px;
+
 }
 .contact{
     background-color: rgba(255, 0, 0, 0.05);
