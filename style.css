@@ -133,6 +133,11 @@ color: #FF0000;
     height: 400px;
     width: 350px;
 }
+.cards img:hover{
+    transition: 1s;
+    height: 250px;
+    width: 200px;
+}
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -156,7 +161,6 @@ color: #FF0000;
     width: 400px;
     border-radius: 35px;
     border: none;
- 
    padding-left: 17px;
 }
 .contact button{
@@ -169,5 +173,54 @@ color: #FF0000;
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+    color: #fff;
+}
+footer{
+    background-color:  #070211;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.footer-title{
+    line-height: 30px;
+}
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0px;
+    line-height: 30px;
+}
+.footer-contact img{
+    width: 18px;
+    height: 18px;
+}
+.footer-contact p{
+    margin: 0%;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30PX;
+    margin-bottom: 30PX;
+}
+.social-icon img{
+    width: 35px;
+    height: 35px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-text p{
     color: #fff;
 }
