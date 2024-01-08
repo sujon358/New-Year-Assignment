@@ -2,9 +2,11 @@
 
 .banner{
     margin-top: 25px;
-    background: url(./img/Banner.png);
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./img/Banner.png);
     background-position: center;
     height: 550px;
+    width: 85%;
+    margin-left: 110px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
@@ -15,6 +17,7 @@
 }
 .banner-text h1{
 font-size: 70px;
+margin: 0px;
 }
 .discount-container{
     text-align: center;
@@ -32,12 +35,15 @@ font-size: 70px;
 }
 
 .midnight-container{
-    background: url('./img/Vectorrr.png'), linear-gradient(90deg,#070211 0%,rgba(7, 2, 17, 0.00)100%);
+    background: linear-gradient(90deg,#070211 0%,rgba(7, 2, 17, 0.00)100%), url('./img/Vectorrr.png') ;
     background-repeat: no-repeat;
     background-position: center;
     height: 550px;
+    width: 85%;
+    margin-left: 110px;
     margin-bottom: 30px;
     margin-top: 70px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-around;
     color: #fff;
@@ -61,7 +67,13 @@ font-size: 70px;
 }
 
 .address-container{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
+    height: 350px;
+    width: 85%;
+    border-radius: 8px;
+    margin-left: 110px;
+    padding-top: 30px;
     font-weight: 700;
     font-size: 25px;
 }
@@ -134,7 +146,7 @@ color: #FF0000;
     width: 350px;
 }
 .cards img:hover{
-    transition: 1s;
+    transition:all 1s ease;
     height: 250px;
     width: 200px;
 }
